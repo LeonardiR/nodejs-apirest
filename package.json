@@ -13,5 +13,14 @@
     "mongoose": "~3.6.11"
   },
   "author": "Regulo Leonardi",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardiR/nodejs-apirest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LeonardiR/nodejs-apirest/issues"
+  },
+  "homepage": "https://github.com/LeonardiR/nodejs-apirest#readme"
 }
