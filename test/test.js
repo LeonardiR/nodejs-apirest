@@ -55,9 +55,9 @@ describe("DELETE Test",function(){
         server
             .delete('/rest/user/:id')
             .expect("Content-type",/json/)
-            .expect(500)
+            .expect(200)
             .end(function(err,res){
-                res.status.should.equal(500);
+                res.status.should.equal(200);
                 done();
             });
     });
